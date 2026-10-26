@@ -1,4 +1,4 @@
-# Transcriber
+# gigaam-transcriber
 
 Локальная транскрибация русской речи с GUI (Tkinter):
 

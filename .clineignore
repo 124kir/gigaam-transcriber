@@ -1,0 +1,110 @@
+# =========================
+# SECRETS / PRIVATE DATA
+# =========================
+
+.env
+.env.*
+*.env
+
+secrets/
+secret/
+credentials/
+credentials.json
+service-account*.json
+
+*.key
+*.pem
+*.p12
+*.pfx
+
+
+# =========================
+# PYTHON
+# =========================
+
+venv/
+.venv/
+env/
+
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+pip-wheel-metadata/
+
+
+# =========================
+# NODE / REACT / EXPO
+# =========================
+
+node_modules/
+
+.npm/
+.yarn/
+.pnpm-store/
+
+.expo/
+.expo-shared/
+
+dist/
+build/
+coverage/
+
+
+# =========================
+# GODOT
+# =========================
+
+.godot/
+
+*.tmp
+*.temp
+
+
+# =========================
+# IDE / OS
+# =========================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# LOGS / TEMP
+# =========================
+
+*.log
+logs/
+
+tmp/
+temp/
+
+
+# =========================
+# DATABASES / DUMPS
+# =========================
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+
+# =========================
+# ARCHIVES / BACKUPS
+# =========================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+backup/
+backups/
